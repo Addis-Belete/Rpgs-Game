@@ -70,9 +70,26 @@
 "use strict";
 
 
-var messageEl = document.createElement('div');
-messageEl.textContent = 'I was put here by JavaScript!';
-document.body.appendChild(messageEl);
+var _messager = __webpack_require__(1);
+
+(0, _messager.showMessage)('Somebody else did this work!');
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.showMessage = showMessage;
+function showMessage(messageText) {
+	var messageEl = document.createElement('div');
+	messageEl.textContent = messageText;
+	document.body.appendChild(messageEl);
+}
 
 /***/ })
 /******/ ]);
