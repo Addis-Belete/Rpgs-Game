@@ -1,8 +1,9 @@
 {
-  
   "version": "1.0.0",
-  
   "repository": "git@github.com:Addis0943/Rpgs-Game.git",
   "author": "Addis Belete <addis.bel@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
 }
