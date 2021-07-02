@@ -4,6 +4,8 @@
   "author": "Addis Belete <addis.bel@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "6",
+    "babel-loader": "^7.0.0",
     "webpack": "^3.0.0"
   }
 }
